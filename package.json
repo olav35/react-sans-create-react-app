@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/olav35/react-sans-create-react-app/issues"
   },
-  "homepage": "https://github.com/olav35/react-sans-create-react-app#readme"
+  "homepage": "https://github.com/olav35/react-sans-create-react-app#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
