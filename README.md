@@ -8,12 +8,12 @@ console.log('hello, world')
 ```
 
 Then we install webpack and webpack-cli.
-````sh
+```sh
 $ npm i --save-dev webpack webpack-cli
 ```
 
 Finally we configure webpack to build our project to `build/main.js` and add a npm script in `package.json` for quickly building the project.
-```
+```js
 // webpack.config.js
 const path = require('path')
 
