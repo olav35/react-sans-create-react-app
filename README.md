@@ -31,7 +31,7 @@ We also add a npm script `start` in `package.json` so that we can start the app 
 },
 ```
 
-Finally we have to use a source map. The source map maps lines from the compiled program to lines of our source code.E ssentially it makes the errors refer to lines in our source code as opposed to compiled gibberish. To use it we just have to add one line to the webpack configuration.
+Finally we have to use a source map. The source map maps lines from the compiled program to lines of our source code. Essentially it makes the errors refer to lines in our source code as opposed to compiled gibberish. To use it we just have to add one line to the webpack configuration.
 ```js
 // webpack.config.js
 devServer: {
